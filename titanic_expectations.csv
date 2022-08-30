@@ -1,0 +1,13 @@
+Name,Definition,Column must exist,Values must be of type,Values must be unique,Values cannot be null,Values must match regex,Minimum value,Maximum value,Allowed values
+PassengerId,Unique ID of the passenger,TRUE,integer,TRUE,TRUE,,,,
+Survived,Flag to distuinguish between passengers who servived and those that didn't,TRUE,integer,,TRUE,,,,
+Pclass,Passenger class,TRUE,integer,,,,1,3,
+Name,Name of the passenger,TRUE,free text,,TRUE,,,,
+Sex,Sex of the passenger,TRUE,free text,,TRUE,,,,male;female
+Age,Age of the passenger,TRUE,integer,,TRUE,,2,50,
+SibSp,,TRUE,integer,,,,0,8,
+Parch,,TRUE,integer,,,,,,
+Ticket,,TRUE,free text,,,,,,
+Fare,Price of the fare,,number,,TRUE,,0,40,
+Cabin,,TRUE,free text,,,,,,
+Embarked,,TRUE,free text,,TRUE,,,,C;Q;S
