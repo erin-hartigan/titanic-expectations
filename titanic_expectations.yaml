@@ -1,0 +1,190 @@
+- expect_table_columns_to_match_ordered_list:
+    column_list:
+    - PassengerId
+    - Survived
+    - Pclass
+    - Name
+    - Sex
+    - Age
+    - SibSp
+    - Parch
+    - Ticket
+    - Fare
+    - Cabin
+    - Embarked
+- expect_table_row_count_to_be_between:
+    max_value: 891
+    min_value: 891
+- expect_column_min_to_be_between:
+    column: PassengerId
+    max_value: 1
+    min_value: 1
+- expect_column_max_to_be_between:
+    column: PassengerId
+    max_value: 891
+    min_value: 891
+- expect_column_values_to_not_be_null:
+    column: PassengerId
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: PassengerId
+    max_value: 1.0
+    min_value: 1.0
+- expect_column_min_to_be_between:
+    column: Survived
+    max_value: 0
+    min_value: 0
+- expect_column_max_to_be_between:
+    column: Survived
+    max_value: 1
+    min_value: 1
+- expect_column_values_to_be_in_set:
+    column: Survived
+    value_set:
+    - 0
+    - 1
+- expect_column_values_to_not_be_null:
+    column: Survived
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Survived
+    max_value: 0.002244668911335578
+    min_value: 0.002244668911335578
+- expect_column_min_to_be_between:
+    column: Pclass
+    max_value: 1
+    min_value: 1
+- expect_column_max_to_be_between:
+    column: Pclass
+    max_value: 3
+    min_value: 3
+- expect_column_values_to_be_in_set:
+    column: Pclass
+    value_set:
+    - 1
+    - 2
+    - 3
+- expect_column_values_to_not_be_null:
+    column: Pclass
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Pclass
+    max_value: 0.003367003367003367
+    min_value: 0.003367003367003367
+- expect_column_values_to_not_be_null:
+    column: Name
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Name
+    max_value: 1.0
+    min_value: 1.0
+- expect_column_values_to_be_in_set:
+    column: Sex
+    value_set:
+    - female
+    - male
+- expect_column_values_to_not_be_null:
+    column: Sex
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Sex
+    max_value: 0.002244668911335578
+    min_value: 0.002244668911335578
+- expect_column_min_to_be_between:
+    column: Age
+    max_value: 0.42
+    min_value: 0.42
+- expect_column_max_to_be_between:
+    column: Age
+    max_value: 80.0
+    min_value: 80.0
+- expect_column_values_to_not_be_null:
+    column: Age
+    mostly: 0.8
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Age
+    max_value: 0.12324929971988796
+    min_value: 0.12324929971988796
+- expect_column_min_to_be_between:
+    column: SibSp
+    max_value: 0
+    min_value: 0
+- expect_column_max_to_be_between:
+    column: SibSp
+    max_value: 8
+    min_value: 8
+- expect_column_values_to_be_in_set:
+    column: SibSp
+    value_set:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 8
+- expect_column_values_to_not_be_null:
+    column: SibSp
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: SibSp
+    max_value: 0.007856341189674524
+    min_value: 0.007856341189674524
+- expect_column_min_to_be_between:
+    column: Parch
+    max_value: 0
+    min_value: 0
+- expect_column_max_to_be_between:
+    column: Parch
+    max_value: 6
+    min_value: 6
+- expect_column_values_to_be_in_set:
+    column: Parch
+    value_set:
+    - 0
+    - 1
+    - 2
+    - 3
+    - 4
+    - 5
+    - 6
+- expect_column_values_to_not_be_null:
+    column: Parch
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Parch
+    max_value: 0.007856341189674524
+    min_value: 0.007856341189674524
+- expect_column_values_to_not_be_null:
+    column: Ticket
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Ticket
+    max_value: 0.7643097643097643
+    min_value: 0.7643097643097643
+- expect_column_min_to_be_between:
+    column: Fare
+    max_value: 0.0
+    min_value: 0.0
+- expect_column_max_to_be_between:
+    column: Fare
+    max_value: 512.3292
+    min_value: 512.3292
+- expect_column_values_to_not_be_null:
+    column: Fare
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Fare
+    max_value: 0.2783389450056117
+    min_value: 0.2783389450056117
+- expect_column_values_to_be_null:
+    column: Cabin
+    mostly: 0.77
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Cabin
+    max_value: 0.7205882352941176
+    min_value: 0.7205882352941176
+- expect_column_values_to_be_in_set:
+    column: Embarked
+    value_set:
+    - C
+    - Q
+    - S
+- expect_column_values_to_not_be_null:
+    column: Embarked
+    mostly: 0.99
+- expect_column_proportion_of_unique_values_to_be_between:
+    column: Embarked
+    max_value: 0.003374578177727784
+    min_value: 0.003374578177727784
